@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image_view_flag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/pakistan"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_view_flag"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/image_view_flag"
+        android:gravity="center"
+        android:text="Pakistan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
